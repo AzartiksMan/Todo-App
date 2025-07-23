@@ -14,7 +14,7 @@ Users should be able to:
   - Toggle status of all TODOs
 
 ### Links
-  - [DEMO LINK](https://AzartiksMan.github.io/Todo-App/)
+  - [DEMO LINK](https://azartiksman.github.io/Todo-App/)
 
 ## Process
 

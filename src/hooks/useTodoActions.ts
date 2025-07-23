@@ -168,7 +168,6 @@ export const useTodoActions = () => {
       .filter(todo => todo.completed !== newStatus)
       .map(todo => todo.id);
 
-
     const results = await Promise.allSettled(
       idsToUpdate.map(id => todosApi.patchTodo(id, { completed: newStatus })),
     );
